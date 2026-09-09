@@ -1,0 +1,25 @@
+# byte-compiled
+__pycache__/
+*.py[cod]
+
+# environments
+.venv/
+venv/
+env/
+
+# training outputs (do not commit)
+pretrain_model/
+debug/*
+!debug/arch_templates/
+wandb/
+logs/
+*.pt
+*.pth
+*.ckpt
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+results/
+npy_result/
